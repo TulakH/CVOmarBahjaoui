@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  cvomarbahjaoui:
+    image: ${DOCKER_REGISTRY}cvomarbahjaoui
+    build:
+      context: .
+      dockerfile: CVOmarBahjaoui/Dockerfile
